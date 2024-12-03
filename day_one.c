@@ -73,8 +73,7 @@ void sort_arr(int arr[], size_t arr_size) {
     memcpy(arr, new_arr, sizeof(new_arr));
 }
 
-int count_lines(FILE* file)
-{
+int count_lines(FILE* file) {
     char buf[BUF_SIZE];
     int counter = 0;
     for(;;)
